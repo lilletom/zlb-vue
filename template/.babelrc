@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        },
+        // corejs的值需与安装的core-js的版本一致
+        // 可以通过 npm ls core-js 查看core-js的版本号
+        "corejs": "2.6.9",
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "env": {
+	"test": {
+		"plugins": ["istanbul"]
+	}
+  }
+}

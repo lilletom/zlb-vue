@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="hello.spec"
+    errors="1" failures="0" hostname="" id="" package="hello.spec" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="对hello.vue进行功能测试" classname="hello.spec">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
