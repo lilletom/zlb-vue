@@ -1,5 +1,5 @@
-import Vue from 'vue' //引用vue
-import Vuex from 'vuex' //引用vuex
+import Vue from "vue" //引用vue
+import Vuex from "vuex" //引用vuex
 //使用vuex
 Vue.use(Vuex)
 

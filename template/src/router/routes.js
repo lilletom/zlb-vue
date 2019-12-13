@@ -1,4 +1,4 @@
-import staticRoute from './staticRoute'
+import staticRoute from "./staticRoute"
 
 export default[
     ...staticRoute
