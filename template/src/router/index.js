@@ -10,4 +10,4 @@ Vue.use(Router);
 	routes
 })
 
-export default Router;
+export default router;

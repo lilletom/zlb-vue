@@ -1,7 +1,7 @@
 <template>
 	<!-- 图表内容区域，必须给Echarts容器本身指定高度。不然它会使用默认高度 -->
 	<div class="chart">
-		<div id="echarts" style="width: 100%; height: 3rem"></div>
+		<div id="echarts" style="width: 100%; height: 3rem;"></div>
 	</div>
 </template>
 

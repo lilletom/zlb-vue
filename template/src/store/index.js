@@ -4,7 +4,7 @@ import Vuex from 'vuex' //引用vuex
 Vue.use(Vuex)
 
 //创建Vuex实例
-const store = new Vuex.store({
+const store = new Vuex.Store({
     // 调用this.$store.state.count
     state: {
         count: 1
