@@ -1,4 +1,5 @@
 import Vue from "vue";
+import store from './store'
 import App from "./app.vue";
 {{#router}}
 import router from "./router"
@@ -6,6 +7,7 @@ import router from "./router"
 
 new Vue({
 	el: "#app",
+	store,
 	{{#router}}
 	router,
 	{{/router}}

@@ -1,0 +1,32 @@
+/* flex布局 */
+@mixin flex-box{
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+/* 行块布局 */
+@mixin inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 单行溢出 */
+@mixin single() {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 多行溢出 */
+@mixin multi($clamp: 2) {
+    display: -webkit-box;
+    -webkit-line-clamp: $clamp;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    overflow: hidden;
+    word-break: break-all;
+}

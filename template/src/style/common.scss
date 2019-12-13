@@ -1,0 +1,42 @@
+html {
+	touch-action: none;
+	-webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;//去除点击背景变蓝
+  overflow: hidden;
+}
+
+body {
+  font-size: 0.12rem;
+  font-family: Microsoft YaHei;
+  margin: 0 auto;
+}
+html, body, #app, .page{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei",sans-serif;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+ul,ol{list-style: none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei; font-weight: normal;}
+a{text-decoration:none; color:#000;font-family: Microsoft YaHei;}
+em,i{font-style:normal;}
+strong{font-weight: normal;}
+img{border: none; display: inline-block; vertical-align: top;}

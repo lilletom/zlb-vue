@@ -1,21 +1,13 @@
 import Vue from "vue";
 import Router from "vue-router";
+import routes from './routes';
 
 Vue.use(Router);
 
-export default new Router({
-	routes: [
-		{
-			path: "/",
-			component: (resolve) => {
-				require(["../pages/Hello.vue"], resolve)
-			}
-		},
-		{
-			path: "/about",
-			component: (resolve) => {
-				require(["../pages/About.vue"], resolve)
-			}
-		}
-	]
+ const router = new Router({
+	mode: 'hash',
+	base: __dirname,
+	routes
 })
+
+export default Router;
