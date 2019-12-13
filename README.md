@@ -9,5 +9,6 @@ $ npm i -g zlb-cli
 $ npm init zlb-vue my-project
 $ cd my-project
 $ npm install
+$ npm run dll
 $ npm start
 ```
